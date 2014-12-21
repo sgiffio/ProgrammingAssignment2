@@ -13,17 +13,19 @@
      ## set and get the value of a matrix
      ## set and get the value of the inverse of a matrix
 
-makeCacheMatrix <- function(x = matrix()) 
-{
-     m <- NULL
+
+makeCacheMatrix <- function(x = matrix()){
+     i <- NULL
      set <- function(y){
           x <<- y
-          m <<- NULL
+          i <<- NULL
      }
      get <- function()x
-
+     setinverse <- function(inverse) i <<- inverse
+     getinverse <- function() i 
+     list(set = set, get = get, 
+          setinverse = setinverse, getinverse = get inverse)
 }
-
 
 ## Write a short comment describing this function
 
