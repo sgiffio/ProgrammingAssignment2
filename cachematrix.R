@@ -1,12 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-## Create two functions
-     ## 1. makeCacheMatrix
-          ## - creates a special matrix object that caches the inverse
-     ## 2. cacheSolve
-          ## - computes the inverse of the matrix returned by 
-          ## makeCacheMatrix. If already calculated then  
-          ## retrieve inverse from cache
+## The functions are used to cache the inverse of a function.
 
 ## Write a short comment describing this function
 ## makeCacheMatrix creates a list containing a function to
