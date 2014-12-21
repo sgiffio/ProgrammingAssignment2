@@ -9,6 +9,9 @@
           ## retrieve inverse from cache
 
 ## Write a short comment describing this function
+## makeCacheMatrix creates a list containing a function to
+     ## set and get the value of a matrix
+     ## set and get the value of the inverse of a matrix
 
 makeCacheMatrix <- function(x = matrix()) 
 {
